@@ -57,38 +57,9 @@ cd backend
 npm install
 cp .env.example .env
 # Set MONGO_URI, JWT_SECRET, STRIPE_KEY, etc.
-npm run dev
+npm run dev '''
 
-### Frontend
 
-```bash
-cd frontend
-npm install
-npm run start
-
-## 🏗 Usage
-
-Browse products on home page
-Sign up or log in to shop
-Add products to your cart
-Proceed to checkout and place order
-View past orders in profile
-(Admin) Log in as admin to add/edit/delete products or manage orders
-
-## 📫 Contact
-
-Created by Neeraj Kondaveeti
-Reach me at: your.email@example.com
-
-## 📌 Roadmap / To‑Do
-
-✅ Stripe payment integration
-✅ Admin dashboard enhancements
-🔄 Product search & filtering improvements
-📦 Image upload (Cloudinary/S3)
-🧾 Email notifications (order confirmations)
-🔐 OAuth login (Google, Facebook)
-📱 Mobile UI optimizations
 
 
 
